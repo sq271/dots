@@ -7,7 +7,7 @@ alias grep='grep --color=auto'
 alias tree='tree -C'
 alias ip='ip -c'
 
-PS1='sq271 >> '
+PS1='>> '
 PS2='> '
 
 if [ "$TERM" = "linux" ]; then
