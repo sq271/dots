@@ -1,0 +1,26 @@
+#!/bin/sh
+
+
+if [ "$TERM" = "linux" ]; then
+  /bin/echo -e "
+  \e]P0000000
+  \e]P14b4366
+  \e]P2434f69
+  \e]P3434966
+  \e]P4434f69
+  \e]P54b4366
+  \e]P6474c6c
+  \e]P734374f
+  \e]P8101314
+  \e]P9555171
+  \e]PA4d5972
+  \e]PB535f7a
+  \e]PC434f69
+  \e]PD555171
+  \e]PE5a607d
+  \e]PF1c1e30
+  "
+  clear
+fi
+
+
