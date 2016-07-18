@@ -1,7 +1,7 @@
 
 syntax on
 set t_Co:16
-colo mycolo
+colo introspect
 
 set nocp
 set backspace=2
@@ -10,6 +10,7 @@ set noswapfile
 set nobackup
 set nowritebackup
 set shortmess+=I
+set ruler
 
 let g:netrw_banner=0
 let g:netrw_liststyle=0

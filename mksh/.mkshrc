@@ -1,0 +1,33 @@
+#!/bin/sh
+
+
+alias ls='ls --color=auto'
+alias ncmpc='ncmpc -c'
+alias lynx='lynx -nopause --prettysrc'
+alias grep='grep --color=auto'
+alias tree='tree -C'
+alias less='less -R'
+alias ip='ip -c'
+
+
+PS1='>> '
+PS2='> '
+
+source ~/.nebula
+
+
+PATH=$PATH:/sbin:/bin:~/bin:.
+LANG='en_US.UTF-8'
+EDITOR='vim'
+PAGER='less'
+
+
+export LESS=-R
+export LESS_TERMCAP_mb=$'\E[01;31m'
+export LESS_TERMCAP_md=$'\E[01;38;5;74m'
+export LESS_TERMCAP_me=$'\E[0m'
+export LESS_TERMCAP_se=$'\E[0m'
+export LESS_TERMCAP_so=$'\E[38;5;245m'
+export LESS_TERMCAP_ue=$'\E[0m'
+export LESS_TERMCAP_us=$'\E[04;38;5;146m'
+
